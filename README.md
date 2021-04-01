@@ -6,6 +6,6 @@ This project is a working area for building conda packages using pyscaffolding.
 ### 3. Putup a project like so: 
 (creates a "tf-ebay" conda project with a source tree like tf.ebay.stuff)
 ```shell script
-putup tf-ebay --package ebay --namespace tf --no-skeleton
+putup conda-ebay --package ebay --namespace tf --no-skeleton
 ```
 ### 4. Edit an environment.yml file in the ebay directory for conda to activate on. Take the one from from the samples directory. 
