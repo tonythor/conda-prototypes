@@ -1,0 +1,38 @@
+name: tf-ebay
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - ipython
+  - jupyter
+  - sphinx
+  - openjdk=8.0.152
+  - pip:
+    - setuptools
+    - wheel
+    - awscli
+    - awswrangler
+    - python-snappy
+    - pyarrow
+    - Cython
+    - cachetools
+    # downgrade numpy for fastparquet until patch is realeased.
+    - numpy==1.19.1
+    - pyspark==2.4.7
+    - fastparquet
+    - requests
+    - tabulate
+    - pprint
+
+    # For documentation
+    - recommonmark
+    - sphinx-markdown-builder
+    - sphinx_markdown_parser
+    - pymdown-extensions
+    # To use atom as a text editor, atom needs this.
+    - python-language-server[all]
+    # for testing and running with IDE's
+    - pytest
+    - pytest-cov
+
