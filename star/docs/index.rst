@@ -1,8 +1,8 @@
-==========
-conda-ebay
-==========
+====
+star
+====
 
-This is the documentation of **conda-ebay**.
+This is the documentation of **star**.
 
 .. note::
 
@@ -29,6 +29,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   Overview <readme>
    License <license>
    Authors <authors>
    Changelog <changelog>

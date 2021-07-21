@@ -1,0 +1,24 @@
+name: star 
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - ipython
+  - jupyter
+  - sphinx
+  - pip:
+      - pip-autoremove
+      - setuptools
+      - wheel
+      # For documentation
+      - recommonmark
+      - sphinx-markdown-builder
+      - sphinx_markdown_parser
+      - pymdown-extensions
+      # To use atom as a text editor, atom needs this.
+      - python-language-server[all]
+      # for testing and running with IDE's
+      - pytest
+      - pytest-cov
+

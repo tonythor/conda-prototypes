@@ -46,7 +46,8 @@ fi
 conda init bash &>/dev/null;
 
 
-conda env create $MODULE --prefix $MODULE_CACHE -q
+#conda env create $MODULE --prefix $MODULE_CACHE -q
+conda env create $MODULE --prefix $MODULE_CACHE 
 conda config --set env_prompt '({name})'
 
 ## copy over the defaults
@@ -68,7 +69,7 @@ fi
 fi
 
 conda activate $MODULE_CACHE
-echo "copying jars: $PROTO_CONDA_DIR_CONDA_DIR/lib/*.jar $SPARK_HOME/jars/"
+echo "copying jars: $PROTO_CONDA_DIR/lib/*.jar $SPARK_HOME/jars/"
 
 
 cp -r $PROTO_CONDA_DIR/lib/*.jar $SPARK_HOME/jars/.

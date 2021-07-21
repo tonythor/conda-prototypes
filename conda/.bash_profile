@@ -7,8 +7,10 @@
 
 export C_PROTO="/Users/afraser/IdeaProjects/conda-prototypes"
 source $C_PROTO/conda/profile_rc.sh
-export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
+#export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
 alias proto="cd $C_PROTO"
+alias pycharm="/Applications/PyCharm\ CE.app/Contents/MacOS/pycharm ./src/."
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

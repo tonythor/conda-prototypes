@@ -13,9 +13,11 @@ echo "PYTHONPATH: $PYTHONPATH"
 # for running, or for execution.
 export PYSPARK_DRIVER_PYTHON=$PROTO_PROJECT_DIR/conda/env/$MODULE/bin/ipython
 export PYSPARK_PYTHON=$PROTO_PROJECT_DIR/conda/env/$MODULE/bin/python
-export PROTO_PYTHON_SRC_ROOT=$PROTO_PROJECT_DIR/$MODULE/src
+export PYTHON_SRC_ROOT=$PROTO_PROJECT_DIR/$MODULE/src
 export JAVA_HOME=$PROTO_PROJECT_DIR/conda/env/$MODULE
 export SPARK_HOME=$PROTO_PROJECT_DIR/conda/env/$MODULE/lib/python$PV/site-packages/pyspark
+
+c
 
 if [ -f ./local.sh ]; then
     echo "-- setting local.sh variables."
