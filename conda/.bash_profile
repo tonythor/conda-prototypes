@@ -11,6 +11,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Hom
 #export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
 alias proto="cd $C_PROTO"
 alias pycharm="/Applications/PyCharm\ CE.app/Contents/MacOS/pycharm ./src/."
+alias pycharm-test="/Applications/PyCharm\ CE.app/Contents/MacOS/pycharm ./tests/."
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
