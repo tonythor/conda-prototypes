@@ -12,7 +12,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Hom
 alias proto="cd $C_PROTO"
 alias pycharm="/Applications/PyCharm\ CE.app/Contents/MacOS/pycharm ./src/."
 alias pycharm-test="/Applications/PyCharm\ CE.app/Contents/MacOS/pycharm ./tests/."
-
+alias star="cd $C_PROTO/star/"
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/usr/local/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
