@@ -2,12 +2,13 @@ name: star
 channels:
   - defaults
 dependencies:
-  - python=3.7
+  - python=3.8
   - pip
   - ipython
   - jupyter
   - sphinx
   - pip:
+      - pyspark
       - pip-autoremove
       - setuptools
       - wheel
@@ -21,4 +22,5 @@ dependencies:
       # for testing and running with IDE's
       - pytest
       - pytest-cov
+      - tox
 

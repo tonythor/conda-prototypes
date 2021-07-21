@@ -2,7 +2,7 @@
 # if we didn't, we'd have to do import `src.nbcuas.common.infrastructure...`
 # and if we do that, that won't work for pyscaffold.
 
-PV="3.6"
+PV="3.8"
 
 
 export PYTHONPATH="$PROTO_PROJECT_DIR/conda/env/$MODULE/lib/python$PV/site-packages:$PROTO_PROJECT_DIR/$MODULE/src"
