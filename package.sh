@@ -4,7 +4,11 @@
 # ./package.sh -m=tf-common -t -s -c
 #  where -t is run tests, -s is push to server and -c is clean when done.
 
-
+TAG=`date "+%Y%m%d%H%M"` 
+echo "Tagging:"
+git add -A
+git commit -m "rebuilding everything"
+git tag -a v0.0."$TAG" -m"0.0.$TAG"
 
 export PATH=$PATH:.
 pwd=$(pwd)
